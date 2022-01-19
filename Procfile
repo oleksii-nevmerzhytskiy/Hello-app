@@ -1,1 +1,1 @@
-web: gunicorn hello-evo-python-lab.wsgi --log-file -
+web: gunicorn djangoProject.wsgi --log-file -
