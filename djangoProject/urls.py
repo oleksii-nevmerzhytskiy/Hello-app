@@ -19,6 +19,7 @@ from greeting.views import *
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('', greetingView),
     path('greeting/', greetingView),
     path('addGreeting/', addGreetingView),
     path('greetingList/', GreetingListView),
