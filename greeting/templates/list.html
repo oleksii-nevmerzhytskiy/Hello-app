@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<div style="margin-top: 5%">
+<body style="background-color:#A9A9A9" >
+ <ul class="pager">
+        {% for i in all_items %}
+            <li><a>{{ i.name }}</a></li>
+        {% endfor %}
+    </ul>
+ <div class="text-center">
+     <form action="/greeting/">
+    <input class="btn btn-primary"   type="submit" value="Назад">
+
+ </div>
+
+</div>
+    </div>
+</body>
+</html>
