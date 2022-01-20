@@ -127,7 +127,7 @@ ENV/
 env.bak/
 venv.bak/
 .idea/
-
+postgres_data/
 # Spyder project settings
 .spyderproject
 .spyproject
